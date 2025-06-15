@@ -315,21 +315,19 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong62.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong76.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong60.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong30.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong63.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong64.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong6d.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong52.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong96.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong59.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong51.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong53.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong7f.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5b.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong78.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong51.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong59.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong80.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong50.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong96.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5f.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong8f.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong6b.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong52.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong81.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5e.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong64.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei68.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei63.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei89.tfm
@@ -339,17 +337,17 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei76.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei52.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unihei\unihei80.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong58.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong53.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong6d.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong72.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong66.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong79.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5c.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5d.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong6b.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong8f.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong5f.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong50.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong95.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong98.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong68.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong63.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong6e.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\zhmetrics\unisong\unisong69.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
@@ -504,8 +502,6 @@ INPUT C:\WINDOWS\Fonts\simhei.ttf
 INPUT C:\WINDOWS\Fonts\simhei.ttf
 INPUT C:\WINDOWS\Fonts\simhei.ttf
 INPUT C:\WINDOWS\Fonts\simhei.ttf
-INPUT C:\WINDOWS\Fonts\simsun.ttc
-INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simsun.ttc
 INPUT C:\WINDOWS\Fonts\simsun.ttc
