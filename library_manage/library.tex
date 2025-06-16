@@ -119,6 +119,69 @@ for tree={
 \end{forest}
 \caption{图书管理系统思维导图}
 \end{figure}
+\section{系统操作}
+\subsection{登录系统}
+
+我们设计了一个简单的登录系统，管理员需要输入密码才能进入系统。密码可以通过修改功能进行更改，以保证系统的安全性。登录成功后，管理员可以进行各种操作，如添加图书、添加用户、浏览信息等。
+这是为了防止未授权用户访问系统，确保只有管理员可以进行管理操作。以下是系统的登录界面。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{loading.png}
+    \caption{系统登录界面示意图}
+\end{figure}
+
+\subsection{操作界面演示}
+
+这是一个简单的UI界面，管理员可以通过光标移动来选择不同的功能模块。界面上方标题栏显示当前所在的功能界面，下方有操作指引，方便管理员清楚如何使用这些功能。具体是按Enter键来选择确认功能，按Esc键返回上一级菜单。
+负责上下移动的光标则是打印>符号表示
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{system.png}
+    \caption{系统操作界面示意图}
+\end{figure}
+
+\subsection{用户信息查寻与图书信息查寻}
+管理员可以通过系统浏览所有用户信息和图书信息。用户信息包括用户ID和姓名，图书信息包括图书ID、书名、作者、ISBN和出版年份等。管理员可以查看当前借阅者和借阅数目等信息。只需把光标移动到显示用户和
+显示书籍，点击enter键即可进入浏览界面。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{user.png}
+    \caption{用户界面示意图}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{book.png}
+    \caption{书籍界面示意图}
+\end{figure}
+
+
+按照下方的操作指引，管理员可以按ins键添加书籍和用户按del键删除书籍和用户，按esc键返回上一级菜单。
+\subsection{借阅书籍的的操作}
+
+在用户界面选择借书者，按enter进入二级页面，按ins键进入借阅界面，按del键进入还书界面，点击enter即可归还或借阅选定的图书
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{borrow.png}
+    \caption{借阅界面示意图}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{manipulate.png}
+    \caption{归还界面示意图}
+\end{figure}
+
+\subsection{用户和图书的信息}
+点开用户和图书的二级页面即可显示用户和图书的所有信息，包括用户ID、姓名，图书ID、书名、作者、ISBN和出版年份等信息。管理员可以通过光标移动来选择不同的用户或图书，按Enter键查看详细信息。
+\subsection{恢复出厂设置}
+管理员可以通过恢复出厂设置功能将系统重置到初始状态。此功能会清除所有用户和图书信息，并将系统恢复到最初的设置。管理员只需在主界面选择恢复出厂设置，按Enter键确认即可。
+\subsection{退出系统}
+管理员可以通过退出系统功能来安全地退出图书管理系统。只需在主界面选择退出系统，按Enter键确认即可。退出后，所有未保存的数据将被清除，确保系统的安全性。
 
 \section{总结}
 
