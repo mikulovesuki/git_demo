@@ -13,7 +13,8 @@
 
 
 \begin{document}
-
+\tableofcontents
+\newpage
 
 \section{需求分析}
 
@@ -62,61 +63,62 @@ UI功能：图书管理系统拥有美观的用户界面，管理员可以移动
 \section{系统设计说明}
 
 \begin{figure}[H]
-\centering
-\begin{forest}
-for tree={
-    font=\sffamily,
-    grow=east,
-    draw,
-    rounded corners,
-    edge={-latex},
-    parent anchor=east,
-    child anchor=west,
-    l sep=15pt,
-    s sep=10pt,
-    align=left,
-    edge path={
-      \noexpand\path [draw, \forestoption{edge}] (!u.parent anchor) -- +(5pt,0) |- (.child anchor)\forestoption{edge label};
-    },
-    if n=1
-      {fill=cyan!30, font=\bfseries}
-      {}
+  \centering
+\resizebox{0.5\textwidth}{!}{
+  \begin{forest}
+  for tree={
+      font=\sffamily,
+      grow=east,
+      draw,
+      rounded corners,
+      edge={-latex},
+      parent anchor=east,
+      child anchor=west,
+      l sep=15pt,
+      s sep=25pt, % 增大节点间纵向距离
+      align=left,
+      edge path={
+        \noexpand\path [draw, \forestoption{edge}] (!u.parent anchor) -- +(5pt,0) |- (.child anchor)\forestoption{edge label};
+      },
+  }
+  [图书管理系统
+    [登陆密码, yshift=-250pt
+      [输入密码, yshift=-250pt]
+      [修改密码, yshift=-250pt]
+      [输入密码, yshift=-250pt]
+      [修改密码, yshift=-250pt]
+    ]
+    [退出系统]
+    [增加信息
+      [图书
+        [ID]
+        [书名]
+        [作者]
+        [ISBN]
+        [出版年份]
+      ]
+      [用户
+        [ID]
+        [姓名]
+      ]
+    ]
+    [浏览信息
+      [图书
+        [当前借阅者]
+      ]
+      [用户
+        [借阅数]
+      ]
+    ]
+    [删除信息]
+    [UI
+      [光标移动]
+      [操作功能指引]
+    ]
+    [恢复出厂设置]
+  ]
+  \end{forest}
 }
-[图书管理系统
-  [登陆密码
-    [输入密码]
-    [修改密码]
-  ]
-  [退出系统]
-  [增加信息
-    [图书
-      [ID]
-      [书名]
-      [作者]
-      [ISBN]
-      [出版年份]
-    ]
-    [用户
-      [ID]
-      [姓名]
-    ]
-  ]
-  [浏览信息
-    [图书
-      [当前借阅者]
-    ]
-    [用户
-      [借阅数]
-    ]
-  ]
-  [删除信息]
-  [UI
-    [光标移动]
-    [操作功能指引]
-  ]
-  [恢复出厂设置]
-]
-\end{forest}
 \caption{图书管理系统思维导图}
 \end{figure}
 \section{系统操作}
