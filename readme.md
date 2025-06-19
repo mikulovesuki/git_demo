@@ -1,7 +1,4 @@
-# 课程设计
-
-课程设计选题：图书管理系统  
-小组成员：钟敦复、陈子健、李晓咏、韦明治、李峰  
+# 附录
 
 ## 核心功能
 本图书管理系统的核心功能包括：
@@ -114,8 +111,15 @@ main -> main: page_stack已空\n程序结束
 
 ## UML类图
 以下是本图书管理系统的UML类图，展示了核心模块和UI界面模块的主要类及其关系。
+
+<div style="page-break-after: always;"></div>
+<div style="transform: rotate(90deg); position: relative; top: 300px;">
+
 ```plantuml
 @startuml
+
+scale 0.7
+
 package core {
   class Book {
     +id: std::string
@@ -242,3 +246,5 @@ package UI {
 
 @enduml
 ```
+
+</div>
